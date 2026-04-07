@@ -20,15 +20,15 @@ import {
 const routinePhases = [
   {
     phase: "The Evening",
-    subtitle: "The Start of the Islamic Day",
+    subtitle: "Opening of the Islamic Day",
     icon: <Sunset className="w-6 h-6 text-amber-400" />,
     items: [
       {
         time: "6:40 PM",
         hour: 18,
         minute: 40,
-        title: "Maghrib & Spiritual Anchor",
-        desc: "Pray Maghrib, Surah Al-Waqiah, Evening Adhkar",
+        title: "Maghrib — Where the Day is Born",
+        desc: "Plant the seed of the day with Maghrib, water it with Al-Waqiah and shelter it through the evening adhkar.",
         category: "Spiritual",
         icon: <Star className="w-5 h-5" />,
       },
@@ -36,8 +36,8 @@ const routinePhases = [
         time: "7:15 PM",
         hour: 19,
         minute: 15,
-        title: "Nourishment & Connection",
-        desc: "Dinner and quality, uninterrupted family time",
+        title: "The Sunnah of Togetherness — Dinner & Family Time",
+        desc: "Share a blessed meal, speak with kindness and give full attention to your family.",
         category: "Personal",
         icon: <Heart className="w-5 h-5" />,
       },
@@ -45,15 +45,15 @@ const routinePhases = [
   },
   {
     phase: "The Night",
-    subtitle: "Focus and Rest",
+    subtitle: "Worship, Knowledge & Rest",
     icon: <Moon className="w-6 h-6 text-slate-300" />,
     items: [
       {
-        time: "8:10 PM",
+        time: "8:00 PM",
         hour: 20,
-        minute: 10,
-        title: "Isha & Protection",
-        desc: "Pray Isha, followed by Surah Al-Mulk",
+        minute: 0,
+        title: "Isha — The Final Call of the Day",
+        desc: "End the day's worship with Isha and let Al-Mulk stand guard over your night.",
         category: "Spiritual",
         icon: <Star className="w-5 h-5" />,
       },
@@ -61,8 +61,8 @@ const routinePhases = [
         time: "8:30 PM",
         hour: 20,
         minute: 30,
-        title: "Evening Study",
-        desc: "2 hours of focused study or reading",
+        title: "Evening Study & Reflection",
+        desc: "Two hours dedicated to growth — read, reflect and close the day wiser than you opened it.",
         category: "Intellectual",
         icon: <BookOpen className="w-5 h-5" />,
       },
@@ -70,33 +70,33 @@ const routinePhases = [
         time: "10:30 PM",
         hour: 22,
         minute: 30,
-        title: "Restorative Sleep",
-        desc: "6-8 hours of sleep for physical recovery",
+        title: "Sleep — The Body's Right and the Soul's Rest",
+        desc: "Your body has a right over you — honor it with 6-8 hours of sleep, ensuring you wake up refreshed for the blessings of a new day.",
         category: "Rest",
         icon: <BedDouble className="w-5 h-5" />,
       },
     ],
   },
   {
-    phase: "Pre-Dawn & Dawn",
-    subtitle: "The Spiritual Core",
+    phase: "The Heart of the Day",
+    subtitle: "A Moment for Miracles",
     icon: <Sunrise className="w-6 h-6 text-emerald-400" />,
     items: [
       {
-        time: "4:00 AM",
-        hour: 4,
-        minute: 0,
-        title: "Tahajjud & Deep Dua",
-        desc: "Wake up for night prayer, lay out hopes and intentions",
+        time: "3:30 AM",
+        hour: 3,
+        minute: 30,
+        title: "Qiyam Ul-Layl",
+        desc: "Stand in Tahajjud — the secret hour where Dua meets Destiny and Barakah begins.",
         category: "Spiritual",
         icon: <Star className="w-5 h-5" />,
       },
       {
-        time: "4:45 AM",
+        time: "4:30 AM",
         hour: 4,
-        minute: 45,
+        minute: 30,
         title: "Fajr & Morning Light",
-        desc: "Pray Fajr, Morning Adhkar and Surah Yaseen",
+        desc: "Begin the day with Fajr prayer, welcome the morning with adhkar and recite Surah Yaseen to start your day with barakah and clarity.",
         category: "Spiritual",
         icon: <BookOpen className="w-5 h-5" />,
       },
@@ -382,8 +382,8 @@ const IslamicRoutine = () => {
           Daily Routine with Barakah
         </h1>
         <p className="text-base md:text-lg text-slate-400 leading-relaxed max-w-xl mx-auto font-medium">
-          A structured balance of spiritual grounding, growth and professional
-          dedication.
+          "And I did not create Jinn and Mankind except to worship Me."
+          <br /> — Quran 51:56
         </p>
       </header>
 
