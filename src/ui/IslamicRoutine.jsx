@@ -104,24 +104,24 @@ const routinePhases = [
   },
   {
     phase: "The Morning",
-    subtitle: "Physical & Professional Power",
+    subtitle: "Discipline Creates Freedom",
     icon: <Sun className="w-6 h-6 text-amber-400" />,
     items: [
       {
-        time: "5:30 AM",
-        hour: 5,
-        minute: 30,
-        title: "Physical Reset",
-        desc: "Exercise, shower and a healthy breakfast",
+        time: "6:00 AM",
+        hour: 6,
+        minute: 0,
+        title: "Strength & Energy",
+        desc: "Train your body, refresh yourself and fuel with a healthy breakfast.",
         category: "Physical",
         icon: <Activity className="w-5 h-5" />,
       },
       {
-        time: "7:00 AM",
-        hour: 7,
-        minute: 0,
-        title: "Morning Prep",
-        desc: "Study session and organizing the mind for the day",
+        time: "6:30 AM",
+        hour: 6,
+        minute: 30,
+        title: "Prepare the Mind",
+        desc: "Study, reflect and structure your priorities for the day ahead.",
         category: "Intellectual",
         icon: <PenTool className="w-5 h-5" />,
       },
@@ -130,32 +130,32 @@ const routinePhases = [
         hour: 8,
         minute: 0,
         title: "Deep Work",
-        desc: "Uninterrupted focus on demanding tasks (until 12 PM)",
+        desc: "Work deeply on your most important tasks - no compromises.",
         category: "Professional",
         icon: <Briefcase className="w-5 h-5" />,
       },
     ],
   },
   {
-    phase: "The Afternoon",
-    subtitle: "Sustenance & Reflection",
+    phase: "Step Back & Recharge",
+    subtitle: "Sustained Energy & Reflection",
     icon: <Sun className="w-6 h-6 text-orange-400" />,
     items: [
       {
         time: "12:00 PM",
         hour: 12,
         minute: 0,
-        title: "Lunch Break",
-        desc: "Step away from workspace to refuel",
+        title: "Reset the Body",
+        desc: "Eat, rest and recharge away from your workspace",
         category: "Physical",
         icon: <Utensils className="w-5 h-5" />,
       },
       {
-        time: "12:25 PM",
+        time: "12:30 PM",
         hour: 12,
-        minute: 25,
-        title: "Duhr & Re-centering",
-        desc: "Pray Duhr to break up the workday",
+        minute: 30,
+        title: "Spiritual Pause",
+        desc: "Pray Duhr to realign your focus and renew your purpose.",
         category: "Spiritual",
         icon: <Star className="w-5 h-5" />,
       },
@@ -163,8 +163,8 @@ const routinePhases = [
         time: "1:00 PM",
         hour: 13,
         minute: 0,
-        title: "Family & Light Tasks",
-        desc: "Time with family interspersed with low-focus tasks",
+        title: "Calm Productivity",
+        desc: "Balance family time with light responsibilities.",
         category: "Personal",
         icon: <Heart className="w-5 h-5" />,
       },
@@ -172,8 +172,8 @@ const routinePhases = [
         time: "3:50 PM",
         hour: 15,
         minute: 50,
-        title: "Asr Prayer",
-        desc: "Mid-afternoon spiritual connection",
+        title: "Spiritual Checkpoint",
+        desc: "Asr prayer — pause, reflect and reconnect.",
         category: "Spiritual",
         icon: <Star className="w-5 h-5" />,
       },
@@ -181,8 +181,8 @@ const routinePhases = [
         time: "4:30 PM",
         hour: 16,
         minute: 30,
-        title: "Review & Plan",
-        desc: "Summarize accomplishments and plan for tomorrow",
+        title: "Daily Review & Planning",
+        desc: "Review your progress and set a clear plan for tomorrow.",
         category: "Intellectual",
         icon: <PenTool className="w-5 h-5" />,
       },
@@ -510,7 +510,9 @@ const IslamicRoutine = () => {
       {/* Footer */}
       <footer className="max-w-2xl mx-auto mt-20 text-center py-12 border-t border-slate-900">
         <p className="text-slate-500 text-xs md:text-sm font-medium italic tracking-wide">
-          "Take benefit of five before five..."
+          “Value five before they are gone: youth before age, health before
+          illness, wealth before poverty, free time before busyness and life
+          before death.”
         </p>
       </footer>
     </div>
