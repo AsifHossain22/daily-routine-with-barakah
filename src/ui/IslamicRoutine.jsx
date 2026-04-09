@@ -487,8 +487,13 @@ const IslamicRoutine = () => {
       <footer className="max-w-2xl mx-auto mt-20 text-center py-12 border-t border-slate-900">
         <p className="text-slate-500 text-xs md:text-sm italic tracking-wide">
           {t(
-            "Value five before they are gone: youth before age, health before illness, wealth before poverty, free time before busyness and life before death.",
+            "Value five before they are gone: youth before old age, health before illness, wealth before poverty, free time before busyness and life before death.",
           )}
+        </p>
+
+        <p className="text-slate-500 text-xs md:text-sm italic tracking-wide mt-10">
+          All rights reserved. Developed by{" "}
+          <span className="text-amber-400 font-bold">Hi ASIF</span>
         </p>
       </footer>
     </div>
