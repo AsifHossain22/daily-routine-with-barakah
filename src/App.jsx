@@ -1,5 +1,5 @@
-import React from "react";
-import IslamicRoutine from "./ui/IslamicRoutine";
+import React from 'react';
+import IslamicRoutine from './ui/IslamicRoutine';
 
 const App = () => {
   return <IslamicRoutine />;
