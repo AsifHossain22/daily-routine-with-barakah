@@ -280,14 +280,14 @@ const IslamicRoutine = () => {
           icon: <Heart className="w-5 h-5" />,
         },
         {
-          time: '3:50 PM',
+          time: '4:00 PM',
           title: 'Spiritual Checkpoint',
           desc: 'Asr prayer — pause, reflect and reconnect.',
           category: 'Spiritual',
           icon: <Star className="w-5 h-5" />,
         },
         {
-          time: '4:45 PM',
+          time: '5:00 PM',
           title: 'Daily Review & Planning',
           desc: 'Review your progress and set a clear plan for tomorrow.',
           category: 'Intellectual',
