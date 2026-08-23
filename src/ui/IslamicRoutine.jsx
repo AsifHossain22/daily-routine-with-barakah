@@ -463,7 +463,13 @@ const IslamicRoutine = () => {
 
         <p className="text-slate-500 text-xs md:text-sm italic tracking-wide mt-10">
           All rights reserved. Developed by{' '}
-          <span className="text-amber-400 font-bold">Hi ASIF</span>
+          <a
+            href="https://web-developer-asif.netlify.app/"
+            target="_blank"
+            className="text-amber-400 hover:text-amber-300 font-bold"
+          >
+            Hi ASIF
+          </a>
         </p>
       </footer>
     </div>

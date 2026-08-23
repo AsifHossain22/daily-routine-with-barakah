@@ -38,10 +38,10 @@ const resources = {
     translation: {
       'Daily Routine with Barakah': 'বারাকাহপূর্ণ দৈনিক রুটিন',
       'And I did not create Jinn and Mankind except to worship Me.':
-        'আমি জিন ও মানুষকে আমার ইবাদত ছাড়া অন্য কোনো উদ্দেশ্যে সৃষ্টি করিনি।',
+        'আমি জ্বীন ও মানুষকে আমার ইবাদত ছাড়া অন্য কোনো উদ্দেশ্যে সৃষ্টি করিনি।',
       'Al Quran - 51:56': 'আল-কুরআন - ৫১:৫৬',
       'Daily Progress': 'আজকের অগ্রগতি',
-      'Alhamdulillah - Completed': 'আলহামদুলিল্লাহ - সম্পন্ন',
+      'Alhamdulillah - Completed': 'আলহামদুলিল্লাহ্‌ - সম্পন্ন',
       // Phases
       'The Evening': 'সন্ধ্যাবেলা',
       'Opening of the Islamic Day': 'ইসলামিক দিনের শুরু',
